@@ -169,4 +169,5 @@
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/views/index.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/libs/common.js"></script>
 </body>
+
 </html>
