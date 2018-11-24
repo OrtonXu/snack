@@ -159,7 +159,7 @@
 						    	"uEmail":$("#uEmail").val(),
 						    	"uRealname":$("#uRealname").val(),
 						    	"uSex":sex,
-						    	"uMoney":"10000",
+						    	"uMoney":"10000", 
 						    	"uAddress":$("#addr").val()
 						    },
 							type:'post',
