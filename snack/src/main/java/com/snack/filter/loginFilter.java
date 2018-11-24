@@ -32,8 +32,8 @@ public class loginFilter implements Filter{
 	        String path = req.getRequestURI();
 	        // 从session取得已经登录验证的凭证 我这里的demo用的是password来作为登录凭证
 	        String adminName = (String) session.getAttribute("adminName");
-	        // login.jsp页面无需过滤(根据自己项目的要求来)
-	        if(path.indexOf("adminGoMain") == -1) {//注意：登录页面千万不能过滤  不然过滤器就。。。。。自行调试不要偷懒！这样记忆深刻
+	        // login.jsp页面无需过滤
+	        if(path.indexOf("adminGoMain") == -1) {//注意：登录页面千万不能过滤  不然过滤器就。。。。。
 	        	chain.doFilter(req, resp);
 	            return;
 	        } else if(path.indexOf("adminGoMain") > -1){//如果不是login.jsp进行过滤

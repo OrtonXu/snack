@@ -25,8 +25,13 @@
 		<div class="weixin">
 				<img src="${pageContext.request.contextPath}/image/trimImg/wxBZ.png" alt="微信图标" class="weixin-icon"/>
 				微信服务:
+<<<<<<< HEAD
 				<strong id="yc" style="cursor:pointer;">点击扫码关注公众号</strong>
 			    <img id="ewm" style="display:none;" src="${pageContext.request.contextPath}/image/trimImg/ly1.png" alt="微信图标" class="weixin-ewm"/>
+=======
+				<strong id="yc" style="cursor:pointer;">点击扫码加微信</strong>
+			    <img id="ewm" style="display:none;" src="${pageContext.request.contextPath}/image/trimImg/myEWM.png" alt="微信图标" class="weixin-ewm"/>
+>>>>>>> branch 'master' of https://github.com/OrtonXu/snack.git
 		</div>
 </div>
 <div class="container header">
