@@ -20,12 +20,12 @@
 		</div>
 		<div class="phone">
 			电话热线:
-			<strong>158****0856</strong>
+			<strong>15000232556</strong>
 		</div>
 		<div class="weixin">
 				<img src="${pageContext.request.contextPath}/image/trimImg/wxBZ.png" alt="微信图标" class="weixin-icon"/>
 				微信服务:
-				<strong id="yc" style="cursor:pointer;">点击扫码加微信</strong>
+				<strong id="yc" style="cursor:pointer;">点击扫码关注公众号</strong>
 			    <img id="ewm" style="display:none;" src="${pageContext.request.contextPath}/image/trimImg/ly1.png" alt="微信图标" class="weixin-ewm"/>
 		</div>
 </div>

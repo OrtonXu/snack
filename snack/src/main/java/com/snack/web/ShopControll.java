@@ -34,7 +34,6 @@ public class ShopControll {
 		List<Snackinfo> newSnackList = shopService.getNewSnack();
 		request.setAttribute("HotSnackList",HotSnackList);
 		request.setAttribute("newSnackList",newSnackList);
-		System.out.println("00");
 		return "user/index";
 	}
 	
