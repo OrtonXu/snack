@@ -35,8 +35,7 @@
 				style="cursor: pointer;">点击扫码加微信</strong> <img id="ewm"
 				style="display: none;"
 				src="${pageContext.request.contextPath}/image/trimImg/myEWM.png"
-				alt="微信图标" class="weixin-ewm" /> >>>>>>> branch 'master' of
-			https://github.com/OrtonXu/snack.git
+				alt="微信图标" class="weixin-ewm" /> 
 		</div>
 	</div>
 	<div class="container header">
