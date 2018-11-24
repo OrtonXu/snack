@@ -69,7 +69,7 @@
 						rpassflag = false;	
 					}else if($("#uPassword").val()==$("#rpassword").val()){
 						$("#rpassmsg").text("");	
-						rpassflag = true;
+						rpassflag = true; 
 					}
 				});	
 				$("#uEmail").blur(function(){
