@@ -23,7 +23,7 @@
 			<a href="${pageContext.request.contextPath}/sorder/gotocar">购物车</a>
 		</div>
 		<div class="phone">
-			电话热线: <strong>15000232556</strong>
+			电话热线: <strong>15906273993</strong>
 		</div>
 		<div class="weixin">
 			<img src="${pageContext.request.contextPath}/image/trimImg/wxBZ.png"
