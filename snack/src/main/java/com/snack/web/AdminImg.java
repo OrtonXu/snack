@@ -15,7 +15,7 @@ import com.snack.utils.ResponseUtil;
 @Controller
 @RequestMapping("/admin/img/")
 public class AdminImg {
-	
+	//首页图片 
 	@RequestMapping("mainToAdminImg")
 	public String mainToAdminImg(){
 		return "admin/Img/adminImg";
